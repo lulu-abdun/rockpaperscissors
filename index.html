@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Let's Play</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abel&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <div class="letsPlay">
+            
+            <p>Let's Play Rock, Paper, Scissors!!</p>
+        </div>
+        <div class="choose">
+            <div class="whoWon">
+                <p id='computerChoice'></p>
+                <p id='userChoice'></p>
+                <h3 id='winner'></h3>
+            </div>
+            <div class="weaponImages">
+                <img id ="rock" src='https://res.cloudinary.com/defkcpwiw/image/upload/v1572534614/rock-screenshot_jwvvsk.png' alt='rock'>
+                <img id ='paper' src='https://res.cloudinary.com/defkcpwiw/image/upload/v1572534614/paper-screenshot_bzdbso.png' alt='paper'>
+                <img id = 'scissors' src='https://res.cloudinary.com/defkcpwiw/image/upload/a_90/v1572534614/scissors-screenshot_uzt5gm.png' alt='scissors'>
+            </div>
+            <p>Choose your weapon</p>
+        </div>
+        <!-- <div class="myButton">
+            <button id="playButton">Play</button>
+        </div> -->
+        <div class="scores">
+            <p></p>
+            <p>Computer: </p>
+        </div>
+        <div class="scoreboard">
+            <table >
+                <tr>
+                    <th id="scores">Scores</th>
+                </tr>
+                <tr>
+                    <!-- user should input their own name -->
+                    <th id='welcome'></th>
+                    <th>Computer</th>
+                </tr>
+                <tr>
+                    <td id='userScore'>0</td>
+                    <td id='computerScore'>0</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    
+    <script src='/game.js'></script>    
+</body>
+</html>

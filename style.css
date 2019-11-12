@@ -1,0 +1,113 @@
+/* Apply to all */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: black;
+    color: white;
+    /* padding: 4rem;
+    margin: 4rem; */
+
+}
+
+/* Let's Play Title */
+
+.letsPlay {
+    display: flex;
+    color: white;
+    justify-content: center;
+    font-size: 5rem;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Dancing Script', cursive;
+
+    /* transform: skewY(5deg);  */
+}
+
+/* Who Won */
+
+.whoWon {
+    font-family: 'Abel', sans-serif;
+    
+}
+#userChoice{
+    font-size: 1rem;
+
+}
+#computerChoice {
+    font-size: 1rem;
+}
+
+#winner{
+    font-size: 3rem;
+    display: inline-block;
+    color: #e98f2e;
+}
+
+/* Choose Your Weapon */
+
+.choose {
+    display: inline;
+    padding: 1rem;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+
+.choose img {
+    width: 10%;
+    padding: 1rem;
+    margin: 0 auto;
+    cursor: pointer;
+}  
+
+.choose p {
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.weaponImages img:hover{
+    transform: scale(1.3);
+    transition: 0.5s;
+}
+
+#scissors {
+    width: 15%;
+    
+}
+
+/* Play Button */
+
+.myButton {
+    margin: 0 auto;
+    width: 200px;
+ 
+}
+
+button {
+    background-color: #e98f2e;
+    color: white;
+    border-radius: 30px;
+    width: 250px;
+    height: 50px;
+    font-size: 15px;
+   
+}
+
+/* Scoreboard */
+
+#scores {
+    font-size: 2rem;
+    text-align: center;
+}
+
+table {
+    text-align: center;
+    margin: 0 auto;
+    padding: 3rem;
+}
+

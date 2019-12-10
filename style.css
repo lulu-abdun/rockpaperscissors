@@ -8,9 +8,6 @@
 .container {
     background-color: black;
     color: white;
-    /* padding: 4rem;
-    margin: 4rem; */
-
 }
 
 /* Let's Play Title */
@@ -103,6 +100,7 @@ button {
 #scores {
     font-size: 2rem;
     text-align: center;
+    font-family: 'Abel', sans-serif;
 }
 
 table {
@@ -111,3 +109,12 @@ table {
     padding: 3rem;
 }
 
+#welcome {
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+}
+
+#welcome2 {
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+}
